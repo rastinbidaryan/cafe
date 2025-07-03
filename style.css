@@ -1,0 +1,32 @@
+
+.container {
+    margin: 2%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+.header {
+    text-align: center;
+    border: 3px #21c7d9 solid;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.body_item {
+    text-align: center;
+    border: 3px #44065c solid;
+    padding: 30%;
+
+}
+
+.footer {
+    text-align: center;
+    border: 3px #45041e solid;
+
+}
